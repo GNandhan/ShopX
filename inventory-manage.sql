@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2023 at 10:56 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.1.12
+-- Generation Time: Jun 09, 2024 at 06:33 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -139,7 +139,8 @@ CREATE TABLE `customer` (
 
 INSERT INTO `customer` (`customer_id`, `customer_name`, `customer_phno`, `customer_address`, `customer_dob`, `customer_gender`, `customer_city`, `customer_email`, `customer_pincode`, `customer_state`, `customer_password`) VALUES
 (5, 'Anjali', '9988774455', 'ernakulam po ernakulam', '2023-10-28', '', 'ernakulam', 'anjaly22@gmail.com', 968574, 'kerala', 'anjalikutty'),
-(6, 'jishna', '9865548878', 'kozhikode po kozhikode', '2023-11-28', 'female', 'palayam', 'jishna22@gmail.com', 652635, 'kerala', 'jishna22@#');
+(6, 'jishna', '9865548878', 'kozhikode po kozhikode', '2023-11-28', 'female', 'palayam', 'jishna22@gmail.com', 652635, 'kerala', 'jishna22@#'),
+(7, 'Amarnath  E K', '9696969696', 'Albert Street , North', '2024-06-01', '', 'New Delhi', 'amar123@gmail.com', 985785, 'tamilnadu', 'amar123@');
 
 -- --------------------------------------------------------
 
@@ -424,7 +425,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `feedback`
